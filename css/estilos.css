@@ -1,0 +1,1808 @@
+body {
+    background-color: white;
+    background-image: url(../images/23.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    font-family: Segan-Light, sans-serif; 
+}
+
+#contacto {
+    display: scroll;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 0px;
+    background-color: black;
+    border-color: black;
+   
+}
+
+#contactoImage {
+    width: 60px;
+    height: auto;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+}
+
+#modalContent { 
+    background-color: rgb(22, 22, 22);
+    background-image: url(../images/circuito2.jpg);
+    background-size: cover;
+    border-radius: 7%;
+    width: 310px;
+    height: auto;
+    margin: auto;
+}
+
+input:invalid {
+    border: 1px solid red;
+  }
+  
+input:valid {
+    border: 1px solid green;
+  }
+
+#exampleModalLabel {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+#contactoForm1 {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#contactoForm2 {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#contactoForm3 {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#contactoForm4 {
+    display: block;
+    position: relative;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 150px;
+}
+
+#contactoButton {
+    display: block;
+    position: relative;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#containerTitle {
+    background-color: black;
+    font-family: Segan-Light, sans-serif; 
+    font-size: 22px;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@media only screen and (min-width: 991px) {
+    #dropdownMenuButton {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #dropdownButtonDiv {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #navbarNav {
+        display: none;
+    }
+}
+
+
+
+#dropdownMenuButton {
+    background-color: black;
+    color: white;
+    border-color: rgb(85, 177, 85);
+}
+
+#dropdownItem {
+    background-color: black;
+    color: rgb(39, 184, 39);
+}
+
+#navbarNav {
+    height: 75px;
+    margin: auto;
+    padding-left: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+#containerTitleText {
+    width: fit-content;
+    background-color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#Mlogo {
+    width: 60px;
+    height: 60px;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@media only screen and (max-width: 991px) {
+    #containerTitleText {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    h1 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 377px) {
+    h2 {
+        display: none;
+    }
+}
+______________________
+
+
+#section1-1 {
+    height: 800px;
+    background-color: black;
+}
+
+#section2-1 {
+    height: 950px;
+    background-color: black;
+}
+
+#section3-1 {
+    height: 900px;
+    background-color: black;
+}
+
+#section4-1 {
+    height: 800px;
+    background-color: black;
+}
+
+#jumbotron1-1 {
+    background-image: url(../images/circuito2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+    #jumbotron1-1 {
+        background-image: url(../images/fondoAlternativo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+p {
+    font-size: 20px;
+    font-family: Segan-Light;
+    font-weight: 500;
+}
+
+hr {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    #jumbotron1-1  {
+        height: auto;
+    }
+}
+
+#h1Jumbotron1-1 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron1-1 {
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#hrJumbotron1-1 {
+    background-color: white;
+    font-weight: bold;
+}
+
+#jumbotron2-1 {
+    background-color: black;
+}
+
+#h1Jumbotron2-1 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron2Container-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#pJumbotron2-1 {
+    text-align: center;
+    text-justify: auto;
+    display: block;
+    margin-top: 50px;
+    color: white;
+}
+
+#hrJumbotron2-1 {
+    background-color: white;
+}
+
+#menuImage1-1container {
+    margin-top: 50px
+}
+
+#menuImage1-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;   
+    height: auto;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@media only screen and (max-width: 991px) {
+    #section2-1 {
+        height: 800px;
+    }
+    #menuImage1-1 {
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #pJumbotron2Container-1 {
+        width: 100%;
+    }
+    #pJumbotron2-1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menuImage1-1 {
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    } 
+    #section2-1 {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #menuImage1-1 {
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #section2-1 {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    #menuImage1-1 {
+        display: block;
+        margin: auto;
+        width: 225px;
+        height: auto;
+    }
+    #section2-1 {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 373px) {
+    #menuImage1-1 {
+        display: block;
+        margin: auto;
+        width: 225;
+        height: auto;
+    }
+    #section2-1 {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 339px) {
+    #menuImage1-1 {
+        display: block;
+        margin: auto;
+        width: 225;
+        height: auto;
+    }
+    #section2-1 {
+        height: 1000px;
+    }
+}
+
+
+#jumbotron3-1 {
+    background-color: black;
+}
+
+#h1Jumbotron3-1 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron3Container-1 {
+    float: right;
+    width: 50%;
+}
+
+#pJumbotron3-1 {
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    padding-top: 50px;
+}
+
+#hrJumbotron3-1 {
+    background-color: white;
+}
+
+#menuImage2-1 {
+    display: block;
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+    #section3-1 {
+        height: 1150px;
+    }
+    #menuImage2-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: auto;
+    }
+    #pJumbotron3Container-1 {
+        width: 100%;
+    }
+    #pJumbotron3-1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menuImage2-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 350px;
+        height: auto;
+    }
+    #section3-1 {
+        height: 1250px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #menuImage2-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: auto;
+    }
+    #section3-1 {
+        height: 1275px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    #menuImage2-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #section3-1 {
+        height: 1410px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    #menuImage2-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 225px;
+        height: auto;
+    }
+    #section3-1 {
+        height: 1510px;
+    }
+}
+
+#jumbotron4-1 {
+    background-color: black;
+}
+
+#h1Jumbotron4-1 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron4Container-1 {
+    float: left;
+    width: 50%;
+}
+
+
+#pJumbotron4-1 {
+    text-align: left;
+    text-justify: auto;
+    color: white;
+    padding-top: 50px;
+}
+
+#hrJumbotron4-1 {
+    background-color: white;
+}
+
+#menuImage3-1 {
+    display: block;
+    width: 400px;
+    height: 400px;
+    float: right;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+    #section4-1 {
+        height: 1000px;
+    }
+    #menuImage3-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 450px;
+        height: auto;
+    }
+    #pJumbotron4Container-1 {
+        width: 100%;
+    }
+    #pJumbotron4-1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #menuImage3-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 350px;
+        height: auto;
+    }    
+    #section4-1 {
+        height: 1030px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #menuImage3-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 350px;
+        height: auto;
+    }
+    #section4-1 {
+        height: 1075px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    #menuImage3-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: auto;
+    }
+    #section4-1 {
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    #menuImage3-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #section4-1 {
+        height: 1205px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    #menuImage3-1 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #section4-1 {
+        height: 1250px;
+    }
+}
+
+
+
+______________________
+
+
+#section1-2 {
+    height: max-content;
+    background-color: black;
+}
+
+#section2-2 {
+    height: 750px;
+    background-color: black;
+}
+
+#section3-2 {
+    height: 1000px;
+    background-color: black;
+}
+
+#section4-2 {
+    height: 1050px;
+    background-color: black;
+}
+
+#jumbotron1-2 {
+    background-image: url(../images/libros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 20px;
+    font-family: Segan-Light;
+    font-weight: 500;
+}
+
+hr {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    #jumbotron1-2  {
+        height: auto;
+    }
+}
+
+#h1Jumbotron1-2 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron1-2 {
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#hrJumbotron1-2 {
+    background-color: white;
+    font-weight: bold;
+}
+
+#jumbotron2-2 {
+    background-color: black;
+}
+
+#h1Jumbotron2-2 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron2Container-2 {
+    display: block;
+    width: 70%;
+    padding: 0;
+}
+
+li {
+    color: white; 
+    font-size: 20px;
+}
+
+li span {
+    color: white;
+    font-size: 20px;
+}
+
+#pJumbotron2-2 {
+    text-align: left;
+    text-justify: auto;
+    color: white;
+    padding-top: 50px;
+}
+
+#hrJumbotron2-2 {
+    background-color: white;
+}
+
+@media only screen and (max-width: 991px) {
+    #section2-2 {
+        height: 750px;
+    }
+    #pJumbotron2Container-2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #pJumbotron2Container-2 {
+        width: 100%;
+    }
+    #section2-2 {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #pJumbotron2Container-2 {
+        width: 100%;
+    }
+    #section2-2 {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 436px) {
+    #pJumbotron2Container-2 {
+        width: 100%;
+    }
+    #section2-2 {
+        height: 950px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #pJumbotron2Container-2 {
+        width: 100%;
+    }
+    #section2-2 {
+        height: 990px;
+    }
+}
+
+@media only screen and (max-width: 353px) {
+    #pJumbotron2Container-2 {
+        width: 100%;
+    }
+    #section2-2 {
+        height: 1100px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    #pJumbotron2Container-2 {
+        width: 100%;
+    }
+    #section2-2 {
+        height: 1130px;
+    }
+}
+
+@media only screen and (max-width: 327px) {
+    #pJumbotron2Container-2 {
+        width: 100%;
+    }
+    #section2-2 {
+        height: 1165px;
+    }
+}
+
+@media only screen and (max-width: 318px) {
+    #pJumbotron2Container-2 {
+        width: 100%;
+    }
+    #section2-2 {
+        height: 1350px;
+    }
+}
+
+#jumbotron3-2 {
+    background-color: black;
+}
+
+#h1Jumbotron3-2 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron3Container-2 {
+    float: right;
+    width: 50%;
+}
+
+#pJumbotron3-2 {
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    padding-top: 50px;
+}
+
+#hrJumbotron3-2 {
+    background-color: white;
+}
+
+#menuImage2-2 {
+    display: block;
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+    #section3-2 {
+        height: 1250px;
+    }
+    #menuImage2-2 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: auto;
+    }
+    #pJumbotron3Container-2 {
+        width: 100%;
+    }
+    #pJumbotron3-2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menuImage2-2 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 350px;
+        height: auto;
+    }
+    #section3-2 {
+        height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #menuImage2-2 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: auto;
+    }
+    #section3-2 {
+        height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    #menuImage2-2 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #section3-2 {
+        height: 1250px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    #menuImage2-2 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 225px;
+        height: auto;
+    }
+    #section3-2 {
+        height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 331px) {
+    #menuImage2-2 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 200px;
+        height: auto;
+    }
+    #section3-2 {   
+        height: 1300px;
+    }
+}
+
+#jumbotron4-2 {
+    background-color: black;
+}
+
+#h1Jumbotron4-2 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron4Container-2 {
+    float: left;
+    width: 100%;
+}
+
+
+#pJumbotron4-2 {
+    text-align: left;
+    text-justify: auto;
+    color: white;
+    padding-top: 50px;
+}
+
+#hrJumbotron4-2 {
+    background-color: white;
+}
+
+#menuImage3-2 {
+    display: block;
+    width: 400px;
+    height: auto;
+    float: right;
+    padding-top: 130px;
+}
+
+@media only screen and (max-width: 991px) {
+    #card-deck1 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #section4-2 {
+        height: 1130px;
+    }
+    #pJumbotron4Container-2 {
+        width: 100%;
+    }
+    #pJumbotron4-2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #section4-2 {
+        height: 2225px;
+    }
+    #pJumbotron4Container-2 {
+        width: 100%;
+    }
+    #pJumbotron4-2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #section4-2 {
+        height: 2100px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #section4-2 {
+        height: 2150px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #section4-2 {
+        height: 2150px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    #section4-2 {
+        height: 2200px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #section4-2 {
+        height: 2300px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    #section4-2 {
+        height: 2385px;
+    }
+}
+
+@media only screen and (max-width: 329px) {
+    #section4-2 {
+        height: 2500px;
+    }
+}
+
+____________________
+
+
+#section1-3 {
+    height: max-content;
+    background-color: black;
+}
+
+#section2-3 {
+    height: 700px;
+    background-color: black;
+}
+
+#section3-3 {
+    height: 800px;
+    background-color: black;
+}
+
+#jumbotron1-3 {
+    background-image: url(../images/trayectoria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 20px;
+    font-family: Segan-Light;
+    font-weight: 500;
+}
+
+hr {
+    font-size: 20px;
+}
+
+#h1Jumbotron1-3 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron1-3 {
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#hrJumbotron1-3 {
+    background-color: white;
+    font-weight: bold;
+}
+
+#jumbotron2-3 {
+    background-color: black;
+}
+
+#h1Jumbotron2-3 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron2Container-3 {
+    float: left;
+    width: 50%;
+}
+
+#pJumbotron2-3 {
+    text-align: left;
+    text-justify: auto;
+    color: white;
+    padding-top: 50px;
+}
+
+#hrJumbotron2-3 {
+    background-color: white;
+}
+
+#menuImage1-3 {
+    display: block;
+    width: 400px;   
+    height: 400px;
+    float: right;
+    padding-top: 50px;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+@media only screen and (max-width: 1199px) {
+    #section2-3 {
+        height: 1100px;
+    }
+    #menuImage1-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 550px;
+        height: auto;
+    }
+    #pJumbotron2Container-3 {
+        width: 100%;
+    }
+    #pJumbotron2-3 {
+        text-align: center;
+    }
+    #jumbotron1-3  {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #section2-3 {
+        height: 1050px;
+    }
+    #menuImage1-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: auto;
+    }
+    #pJumbotron2Container-3 {
+        width: 100%;
+    }
+    #pJumbotron2-3 {
+        text-align: center;
+    }
+    #jumbotron1-3  {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menuImage1-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 350px;
+        height: auto;
+    } 
+    #section2-3 {
+        height: 1115px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #menuImage1-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: auto;
+    }
+    #section2-3 {
+        height: 1110px;
+    }
+}
+
+@media only screen and (max-width: 443px) {
+    #menuImage1-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #section2-3 {
+        height: 1065px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #menuImage1-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #section2-3 {
+        height: 1225px;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    #menuImage1-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 225px;
+        height: auto;
+    }
+    #section2-3 {
+        height: 1135px;
+    }
+}
+
+@media only screen and (max-width: 329px) {
+    #menuImage1-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 200px;
+        height: auto;
+    }
+    #section2-3 {
+        height: 1250px;
+    }
+}
+
+#jumbotron3-3 {
+    background-color: black;
+}
+
+#h1Jumbotron3-3 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron3Container-3 {
+    float: right;
+    width: 50%;
+}
+
+#pJumbotron3-3 {
+    text-align: right;
+    text-justify: auto;
+    color: white;
+    padding-top: 50px;
+}
+
+#hrJumbotron3-3 {
+    background-color: white;
+}
+
+#menuImage2-3 {
+    display: block;
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 1199px) {
+    #section3-3 {
+        height: 1150px;
+    }
+    #menuImage2-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: auto;
+    }
+    #pJumbotron3Container-3 {
+        width: 100%;
+    }
+    #pJumbotron3-3 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #section3-3 {
+        height: 1225px;
+    }
+    #menuImage2-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 375px;
+        height: auto;
+    }
+    #pJumbotron3Container-3 {
+        width: 100%;
+    }
+    #pJumbotron3-3 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menuImage2-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 350px;
+        height: auto;
+    }
+    #section3-3 {
+        height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #menuImage2-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: auto;
+    }
+    #section3-3 {
+        height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    #menuImage2-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 275px;
+        height: auto;
+    }
+    #section3-3 {
+        height: 1325px;
+    }
+}
+
+@media only screen and (max-width: 403px) {
+    #menuImage2-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #section3-3 {
+        height: 1500px;
+    }
+}
+
+@media only screen and (max-width: 331px) {
+    #menuImage2-3 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 225px;
+        height: auto;
+    }
+    #section3-3 {
+        height: 1550px;
+    }
+}
+
+______________________
+
+
+#section1-4 {
+    height: max-content;
+    background-color: black;
+}
+
+#section2-4 {
+    height: 800px;
+    background-color: black;
+}
+
+#section3-4 {
+    height: 750px;
+    background-color: black;
+}
+
+#section4-4 {
+    height: 950px;
+    background-color: black;
+}
+
+#jumbotron1-4 {
+    background-image: url(../images/universo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 20px;
+    font-family: Segan-Light;
+    font-weight: 500;
+}
+
+hr {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    #jumbotron1-4  {
+        height: auto;
+    }
+}
+
+#h1Jumbotron1-4 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron1-4 {
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#hrJumbotron1-4 {
+    background-color: white;
+    font-weight: bold;
+}
+
+#jumbotron2-4 {
+    background-color: black;
+}
+
+#h1Jumbotron2-4 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron2Container-4 {
+    float: left;
+    width: 50%;
+}
+
+#pJumbotron2-4 {
+    text-align: left;
+    text-justify: auto;
+    color: white;
+    padding-top: 50px;
+}
+
+#hrJumbotron2-4 {
+    background-color: white;
+}
+
+#menuImage1-4 {
+    display: block;
+    width: 400px;   
+    height: 400px;
+    float: right;
+    padding-top: 50px;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+@media only screen and (max-width: 991px) {
+    #section2-4 {
+        height: 1100px;
+    }
+    #menuImage1-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: auto;
+    }
+    #pJumbotron2Container-4 {
+        width: 100%;
+    }
+    #pJumbotron2-4 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menuImage1-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 325px;
+        height: auto;
+    } 
+    #section2-4 {
+        height: 1225px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #menuImage1-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #section2-4 {
+        height: 1225px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    #menuImage1-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 225px;
+        height: auto;
+    }
+    #section2-4 {
+        height: 1250px;
+    }
+}
+
+@media only screen and (max-width: 397px) {
+    #menuImage1-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 200px;
+        height: auto;
+    }
+    #section2-4 {
+        height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 336px) {
+    #menuImage1-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 175px;
+        height: auto;
+    }
+    #section2-4 {
+        height: 1350px;
+    }
+}
+
+#jumbotron3-4 {
+    background-color: black;
+}
+
+#h1Jumbotron3-4 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron3Container-4 {
+    float: right;
+    width: 50%;
+}
+
+#pJumbotron3-4 {
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    padding-top: 50px;
+}
+
+#hrJumbotron3-4 {
+    background-color: white;
+}
+
+#menuImage2-4 {
+    display: block;
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+    #section3-4 {
+        height: 1100px;
+    }
+    #menuImage2-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: 400px;
+    }
+    #pJumbotron3Container-4 {
+        width: 100%;
+    }
+    #pJumbotron3-4 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menuImage2-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 350px;
+        height: auto;
+    }
+    #section3-4 {
+        height: 1150px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #menuImage2-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: auto;
+    }
+    #section3-4 {
+        height: 1150px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    #menuImage2-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+    #section3-4 {
+        height: 1275px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    #menuImage2-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 225px;
+        height: auto;
+    }
+    #section3-4 {
+        height: 1175px;
+    }
+}
+
+#jumbotron4-4 {
+    background-color: black;
+}
+
+#h1Jumbotron4-4 {
+    text-align: center;
+    color: white;
+}
+
+#pJumbotron4Container-4 {
+    float: left;
+    width: 50%;
+}
+
+
+#pJumbotron4-4 {
+    text-align: left;
+    text-justify: auto;
+    color: white;
+    padding-top: 50px;
+}
+
+#hrJumbotron4-4 {
+    background-color: white;
+}
+
+#menuImage3-4 {
+    display: block;
+    width: 400px;
+    height: 400px;
+    float: right;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+    #section4-4 {
+        height: 1250px;
+    }
+    #menuImage3-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: auto;
+    }
+    #pJumbotron4Container-4 {
+        width: 100%;
+    }
+    #pJumbotron4-4 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menuImage3-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 350px;
+        height: auto;
+    }    
+    #section4-4 {
+        height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #menuImage3-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: auto;
+    }
+    #section4-4 {
+        height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 439px) {
+    #menuImage3-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 225px;
+        height: auto;
+    }
+    #section4-4 {
+        height: 1450px;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    #menuImage3-4 {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 200px;
+        height: auto;
+    }
+    #section4-4 {
+        height: 1550px;
+    }
+}
+
+______________________
+
+
+#containerSocialIcons {
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+
+#socialIcons {
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 35px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: black;
+    color: rgb(39, 184, 39);
+}
+
+.fa-twitter {
+    background: black;
+    color: rgb(39, 184, 39);
+}
+
+.fa-github {
+    background: black;
+    color: rgb(39, 184, 39);
+}
+
+.fa-linkedin {
+    background: black;
+    color: rgb(39, 184, 39);
+}
+
+.fa-instagram {
+    background: black;
+    color: rgb(39, 184, 39);
+}

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Martin Pintos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="js/javascript.js"></script>
+    <style>
+        @font-face {
+            font-family: Segan-Light;
+            src: url(Segan-Light.ttf);
+        }
+    </style>
+    <meta property="og:image" content="images/logo.jpg"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Martin Pintos"/>
+    <meta property="og:description" content="Técnico en PC y Desarrollador Web certificado. 
+                                             Por consultas, puede comuncarse a través de la página web"/>
+</head>
+
+
+
+<body>
+
+
+
+    <div class="container-width-100% sticky-top" id="containerTitle">
+        <nav class="navbar navbar-expand-lg navbar-dark font-big">
+            <div class="dropdown sticky-top" id="dropdownButtonDiv">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <img alt="M logo" height="50" src="images/logo.jpg" style="width: 60px; height: 60px" class="animated zoomIn">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdownMenuButton">
+                    <a class="dropdown-item" href="#section1-1" id="dropdownItem">¿Quién soy?</a>
+                    <hr style="background-color: white; width: 130px">
+                    <a class="dropdown-item" href="#section1-2" id="dropdownItem">Formación</a>
+                    <hr style="background-color: white; width: 130px">
+                    <a class="dropdown-item" href="#section1-3" id="dropdownItem">Trayectoria</a>
+                    <hr style="background-color: white; width: 130px">
+                    <a class="dropdown-item" href="#section1-4" id="dropdownItem">Acerca de mí</a>
+                </div>
+            </div>
+            <ul class="navbar-nav sticky-top" id="navbarNav">
+                <div class="container" id="containerTitleText">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#section1-1" style="color: rgb(39, 184, 39)">¿Quién soy?
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </div>
+                <div class="container" id="containerTitleText">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#section1-2" style="color: rgb(39, 184, 39)">Formación</a>
+                    </li>
+                </div>
+                <div class="container" id="containerTitleText">
+                    <h1>
+                        <a class="logo custom-logo" id="logo" href="index.html" title="Inicio">
+                            <img src="images/logo.jpg" alt="logo" id="Mlogo" class="animated flip">
+                        </a>
+                    </h1>
+                </div>
+                <div class="container" id="containerTitleText">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#section1-3" style="color: rgb(39, 184, 39)">Trayectoria</a>
+                    </li>
+                </div>
+                <div class="container" id="containerTitleText">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#section1-4" style="color: rgb(39, 184, 39)">Acerca de mí</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+    </div>
+
+
+
+    <a data-toggle="modal" data-target="#exampleModal" class="flotante" id="contacto">
+            <img class="animated pulse" id="contactoImage" src="images/contacto.jpg" border="0" />
+       </a>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content" id="modalContent">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contácteme</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form method="POST" action="https://formspree.io/martinpintos3@gmail.com">
+                            <div class="container">
+                                <input type="name" name="Nombre" placeholder="Nombre" id="contactoForm1" required>
+                            </div>
+                            <br>
+                            <div class="container">
+                                <input type="subject" name="Asunto" placeholder="Asunto" id="contactoForm2" required>
+                            </div>
+                            <br>
+                            <div class="container">
+                               <input type="email" name="E-mail" placeholder="E-mail" id="contactoForm3" required>
+                            </div>
+                            <br>
+                            <div class="container">
+                               <textarea name="Mensaje" placeholder="Su mensaje" id="contactoForm4" required maxlength="300"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success" id="contactoButton">Enviar</button>
+                            <br>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    <div class="container-width-100%">
+        <section id="section1-1">
+            <div class="jumbotron" id="jumbotron1-1">
+                <h1 class="display-4" style="padding-bottom: 50px; font-weight: 300" id="h1Jumbotron1-1">Bienvenido!</h1>
+                <h2 style="padding-bottom: 50px; font-weight: 300" id="h1Jumbotron1-1">Bienvenido!</h2>
+                <hr class="my-4" id="hrJumbotron1-1">
+                <p class="lead" id="pJumbotron1-1">
+                    Mi nombre es Martin Esteban Pintos Perez
+                </p>
+                <hr class="my-4" id="hrJumbotron1-1">
+                <p id="pJumbotron1-1" style="padding-top: 3%">
+                    Desarrollador Web y Técnico IT, gran simpatizante de la técnología y apasionado a la informática.
+                    <br>
+                    <br> Veo al mundo con una mirada curiosa: con ansias de aprender no solo cómo funciona, si no también, el
+                    por qué de lo que nos rodea; por qué el mundo es y funciona de ésta manera.
+                    <br> Enorme entusiasta por el Universo, la Ciencia y la Computación.
+                    <br> Me considero una persona seria, responsable; pero también simpática, alegre, autodidacta y con facilidad
+                    para adaptarse a diferentes entornos.
+                </p>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section2-1">
+            <div class="jumbotron" id="jumbotron2-1">
+                <hr class="my-4" id="hrJumbotron2-1">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron2-1">Presentación</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron2-1">Presentación</h2>
+                <hr class="my-4" id="hrJumbotron2-1">
+                <div class="container" id="menuImage1-1container">
+                    <img src="images/yo3.jpg" class="animated pulse" alt="imagen 1" style="margin-top: 10%" id="menuImage1-1">
+                </div>
+                <div class="container" id="pJumbotron2Container-1">
+                    <p id="pJumbotron2-1">
+                        Martin Pintos, para abreviar.
+                        <br>
+                        <br> Desarrollador Web, certificado por el Plan Ceibal,
+                        <br> Técnico en Soporte Informático de conocimientos auto-inculcados, y estudiante de Ingenieria en Computación.
+                        <br>
+                        <br> Nacido el 7 de Febrero de 1998 en Montevideo, Uruguay; donde actualmente vivo.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section4-1">
+            <div class="jumbotron" id="jumbotron4-1">
+                <hr class="my-4" id="hrJumbotron4-1">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron4-1">Desarrollo Web</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron4-1">Desarrollo Web</h2>
+                <hr class="my-4" id="hrJumbotron4-1">
+                <div class="container" id="pJumbotron4Container-1">
+                    <p id="pJumbotron4-1">
+                        Mi entusiasmo por las computadoras ha dado lugar a un gran interés por áreas más allá del servicio técnico, incorporándome
+                        al diseño y programación de páginas Web, por la cual he cultivado un gran aprecio e ímpetu.
+                        <br>
+                        <br> En mi opinión, no solo representa (junto a la programación en otros lenguajes) una vital herramienta
+                        para desenvolverse en el mundo de hoy y del mañana, si no que también ha llegado a ser una gran herramienta
+                        para la expresión por la gran libertad artística que otorga al permitir diseñar algo que resulta
+                        tan vivo, dinámico e impactante, como lo puede ser una página web.
+                    </p>
+                </div>
+                <img src="images/codigo.jpg" alt="imagen 3" id="menuImage3-1">
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section3-1">
+            <div class="jumbotron" id="jumbotron3-1">
+                <hr class="my-4" id="hrJumbotron3-1">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron3-1">Apasionado a la Informática</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron3-1">Apasionado a la Informática</h2>
+                <hr class="my-4" id="hrJumbotron3-1">
+                <div class="container" id="pJumbotron3Container-1">
+                    <p id="pJumbotron3-1">
+                        Desde pequeño me he interesado en la Computación, la que a mis ojos es una puerta a un mundo de soluciones prácticas y eficientes
+                        para las problemáticas del día a día; un mundo de infinitas posibilidades, al alcance de unas instrucciones.
+                        Una puerta hacia el futuro.
+                        <br>
+                        <br> Llevo años aprendiendo de Hardware y Software desde una instancia personal de manera autodidacta.
+                        Disfruto el armar, desarmar, configurar y reparar computadoras, así como el modificar mí propio equipo,
+                        experimentando variadas combinaciones y modificaciones prácticas, mientras sigo investigando e informándome
+                        cada día, acerca de las crecientes e incesantes capacidades del hardware y software del momento.
+                    </p>
+                </div>
+                <img src="images/informatica.jpg" alt="imagen 2" id="menuImage2-1">
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="container-width-100%">
+        <section id="section1-2">
+            <div class="jumbotron" id="jumbotron1-2">
+                <h1 class="display-4" style="padding-bottom: 50px; font-weight: 300" id="h1Jumbotron1-2">Formación académica</h1>
+                <h2 style="padding-bottom: 50px; font-weight: 300" id="h1Jumbotron1-2">Formación académica</h2>
+                <hr class="my-4" id="hrJumbotron1-2">
+                <p class="lead" id="pJumbotron1-2">
+                    Estudios realizados y conocimientos adquiridos.
+                </p>
+                <hr class="my-4" id="hrJumbotron1-2">
+                <p id="pJumbotron1-3" style="padding-top: 5%">
+                    Objetivos alcanzados y por alcanzar.
+                </p>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section4-2">
+            <div class="jumbotron" id="jumbotron4-2">
+                <hr class="my-4" id="hrJumbotron4-2">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron4-2">Conocimientos</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron4-2">Conocimientos</h2>
+                <hr class="my-4" id="hrJumbotron4-2">
+                <div class="container" id="pJumbotron4Container-2">
+                    <p id="pJumbotron4-2">
+                        <div class="card-deck" id="card-deck1">
+                            <div id="card-deck1" class="card" style="background-color: black; color: white; border-color: rgb(255, 255, 255);">
+                                <img class="card-img-top" src="images/card1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">Informática</h5>
+                                    <p class="card-text" style="text-align: justify">Amplios conocimientos teóricos y prácticos en software, hardware, armado, reparación
+                                        y mantenimiento de
+                                        <b style="color: rgb(28, 158, 28)">equipos informáticos</b>; adquiridos a través de los años por medios de autoaprendizaje,
+                                        y desarrollo en el ámbito laboral.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div id="card-deck1" class="card" style="background-color: black; color: white; border-color: rgb(255, 255, 255);">
+                                <img class="card-img-top" src="images/card2.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">Desarrollo Web</h5>
+                                    <p class="card-text" style="text-align: justify">Creciente inducción en el área de la programación y
+                                        <b style="color: rgb(28, 158, 28)">desarrollo web</b>, gracias a la participación en el programa de Jóvenes a Programar,
+                                        perteneciente al Plan Ceibal. Extensos conocimientos en lenguaje de marcado
+                                        <b style="color: rgb(28, 158, 28)">HTML</b>, lenguaje de estilos
+                                        <b style="color: rgb(28, 158, 28)">CSS</b> y creciente expansión a través del lenguaje de programación
+                                        <b style="color: rgb(28, 158, 28)">Javascript</b>.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div id="card-deck1" class="card" style="background-color: black; color: white; border-color: rgb(255, 255, 255);">
+                                <img class="card-img-top" src="images/card3.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">Inglés</h5>
+                                    <p class="card-text" style="text-align: justify">Un alto nivel de
+                                        <b style="color: rgb(28, 158, 28)">Inglés</b>, acrecentado por la práctica diaria y sumersión en el ambiente, gracias
+                                        a variadas formas de comunicación, incluyendo medios audio-visuales así como la propia
+                                        comunicación con individuos de habla inglesa.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <p style="color: white; text-align: center">Aquí puedes descargar mi
+                            <a style="color: rgb(28, 158, 28)" href="CurriculummMartinPintos.pdf" download>Currículum personal</a>.</p>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section2-2">
+            <div class="jumbotron" id="jumbotron2-2">
+                <hr class="my-4" id="hrJumbotron2-2">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron2-2">Educación</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron2-2">Educación</h2>
+                <hr class="my-4" id="hrJumbotron2-2">
+                <div class="container" id="pJumbotron2Container-2">
+                    <p id="pJumbotron2-2">
+                        <ul>
+                            <hr style="background-color: white">
+                            <li>Universidad de la República, Facultad de Derecho (Uruguay)
+                                <br>
+                                <br> - Licenciatura en relaciones Internacionales | 2016 – 2017
+                                <br>                (1er año Aprobado; 80 créditos obtenidos)</li>
+                            <br>
+                            <hr style="background-color: white">
+                            <li>Universidad de la República, Facultad de Ingeniería (Uruguay)
+                                <br>
+                                <br> - [En Curso] - Ingenieria en Computación | 2018 – 2023 (aprox.)</li>
+                            <br>
+                            <hr style="background-color: white">
+                            <li>Jóvenes a Programar, Plan Ceibal
+                                <br>
+                                <br> - Programación y Desarrollo Web (HTML, CSS, Javascript) | 2017 – 2018
+                            </li>
+                        </ul>
+                        <hr style="background-color: white">
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section3-2">
+            <div class="jumbotron" id="jumbotron3-2">
+                <hr class="my-4" id="hrJumbotron3-2">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron3-2">Certificaciones</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron3-2">Certificaciones</h2>
+                <hr class="my-4" id="hrJumbotron3-2">
+                <div class="container" id="pJumbotron3Container-2">
+                    <p id="pJumbotron3-2">
+                        <ul>
+                            <hr style="background-color: white">
+                            <br>
+                            <li>Desarrollador Web - Plan Ceibal; "Jóvenes a Programar" [2018]</li>
+                            <br>
+                            <hr style="background-color: white">
+                            <br>
+                            <li>Operador Office Avanzado - Instituto Scanner de Informática [2012]</li>
+                            <br>
+                            <hr style="background-color: white">
+                            <br>
+                            <li>Operador Access y Excel - Instituto Scanner de Informática [2011]</li>
+                            <br>
+                            <hr style="background-color: white">
+                            <br>
+                            <li>High School Level 4 (Inglés) - Instituto Eduland [2013]</li>
+                            <br>
+                            <hr style="background-color: white">
+                        </ul>
+                    </p>
+                </div>
+                <img src="images/certificado.jpg" alt="imagen 2" id="menuImage2-2">
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <div class="container-width-100%">
+        <section id="section1-3">
+            <div class="jumbotron" id="jumbotron1-3">
+                <h1 class="display-4" style="padding-bottom: 50px; font-weight: 300" id="h1Jumbotron1-3">Trayectoria</h1>
+                <h2 style="padding-bottom: 50px; font-weight: 300" id="h1Jumbotron1-3">Trayectoria</h2>
+                <hr class="my-4" id="hrJumbotron1-3">
+                <p class="lead" id="pJumbotron1-3">
+                    Experiencias laborales y sociales
+                </p>
+                <hr class="my-4" id="hrJumbotron1-3">
+                <p id="pJumbotron1-3" style="padding-top: 5%">
+                    Mi trabajo independiente y mis aportes a la sociedad.
+                </p>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section2-3">
+            <div class="jumbotron" id="jumbotron2-3">
+                <hr class="my-4" id="hrJumbotron2-3">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron2-3">Materia laboral</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron2-3">Materia laboral</h2>
+                <hr class="my-4" id="hrJumbotron2-3">
+                <div class="container" id="pJumbotron2Container-3">
+                    <p id="pJumbotron2-3">
+                        Desde hace 3 años (2015), brindo servicio técnico y soporte informático de manera independiente. Diagnósticos, configuración,
+                        y reparación de equipos, así como instalación de programas, armados a medida con presupuestos, asesoramiento,
+                        entre otros.
+                        <br>
+                        <br> Además me desempeño de forma independiente como Desarrollador Freelancer desde 2018, año en el que recibí mi certificación 
+                        por parte del Plan Ceibal. Siempre estoy abierto por consultas y propuestas para trabajar en proyectos de mayor envergadura.
+                        <br>
+                        <br>
+                    </p>
+                </div>
+                <img src="images/reparacion2.jpg" alt="imagen 1" id="menuImage1-3">
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section3-3">
+            <div class="jumbotron" id="jumbotron3-3">
+                <hr class="my-4" id="hrJumbotron3-3">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron3-3">Materia social</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron3-3">Materia social</h2>
+                <hr class="my-4" id="hrJumbotron3-3">
+                <div class="container" id="pJumbotron3Container-3">
+                    <p id="pJumbotron3-3">
+                        Por otro lado, en materia social, soy partícipe de campañas a favor de los animales, ya sea buscando el trato responsable
+                        por parte de dueños, o recaudando fondos para refugios no financiados por el gobierno.
+                        <br>
+                        <br> Una de estás oportunidades fue la pasada instancia de recaudación "Va por los animales" (2018) en
+                        la que se presto servicio voluntario para ayudar al refugio
+                        <a href="http://www.animalessinhogar.com.uy" target="_blank" style="color: rgb(28, 158, 28)">
+                            <u>
+                                <i>Animales Sin Hogar</i>
+                            </u>
+                        </a>, captando donadores o potenciales futuros dueños para animales que buscan adopción.
+                        <br>
+                        <br> Si tienes algunos minutos libres, ¿por qué no dar una vuelta por su página? El link esta un poco
+                        mas arriba! Haz click en el nombre; muchos animalitos buscan un hogar!
+                    </p>
+                </div>
+                <img src="images/animales.jpg" alt="imagen 2" id="menuImage2-3">
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="container-width-100%">
+        <section id="section1-4">
+            <div class="jumbotron" id="jumbotron1-4">
+                <h1 class="display-4" style="padding-bottom: 50px; font-weight: 300" id="h1Jumbotron1-4">Conóceme un poco más</h1>
+                <h2 style="padding-bottom: 50px; font-weight: 300" id="h1Jumbotron1-4">Conóceme un poco más</h2>
+                <hr class="my-4" id="hrJumbotron1-4">
+                <p class="lead" id="pJumbotron1-4">
+                    ¿Por qué Martin y no Martín?
+                </p>
+                <hr class="my-4" id="hrJumbotron1-4">
+                <p id="pJumbotron1-4" style="padding-top: 5%">
+                    Me nombraron Martin en honor al recuerdo de
+                    <u>
+                        <a style="color: rgb(28, 158, 28)" href="https://es.wikipedia.org/wiki/Martin_Luther_King">Martin Luther King (Jr.)</a>
+                    </u>, gran activista por los derechos civiles para los afroestadounidenses, que desarrolló una labor crucial
+                    en Estados Unidos al frente de este movimiento y que, además, participó como activista en numerosas protestas
+                    contra la Guerra de Vietnam y la pobreza en general.
+                    <br>
+                    <br> Creía en la igualdad, la tolerancia, y aún siendo pastor de la Iglesia Bautista, reconocía la gran importancia
+                    de la ciencia en el mundo y la indiscrepancia del método científico.
+                    <br>
+                    <br> Una de las mejores personas que han existido, y un gran ejemplo a seguir.
+                </p>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section2-4">
+            <div class="jumbotron" id="jumbotron2-4">
+                <hr class="my-4" id="hrJumbotron2-4">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron2-4">Fanático de la ciencia y el universo</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron2-4">Fanático de la ciencia y el universo</h2>
+                <hr class="my-4" id="hrJumbotron2-4">
+                <div class="container" id="pJumbotron2Container-4">
+                    <p id="pJumbotron2-4">
+                        Ferviente entusiasta de la Ciencia, Historia, Filosofía y Astronomía, me encanta leer sobre dichos temas en mis tiempos libres.
+                        Siempre me han atraído pero veo su lectura más como un hobbie que como carrera a seguir; por eso
+                        es que me quedé con las computadoras.
+                        <br>
+                        <br> Sin embargo, si hay algo que me maravilla y llama la atención enormemente, es el universo en sí;
+                        su funcionamiento es una constante danza de fuerzas monumentales, que a cada momento incursionan
+                        en la entropía; un caos ordenado. Además de la increible cantidad de únicos y diferentes objetos
+                        que existen, basta meditar un poco para sentirse sumamente pequeño.
+                    </p>
+                </div>
+                <img src="images/astros.jpg" alt="imagen 1" id="menuImage1-4" class="animated">
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section3-4">
+            <div class="jumbotron" id="jumbotron3-4">
+                <hr class="my-4" id="hrJumbotron3-4">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron3-4">Amante de los animales y la música</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron3-4">Amante de los animales</h2>
+                <hr class="my-4" id="hrJumbotron3-4">
+                <div class="container" id="pJumbotron3Container-4">
+                    <p id="pJumbotron3-4">
+                        Pués si, me encantan los animales, desde los más chicos hasta los mas grandes. Personalmente me encantan los perros, gatos
+                        y serpientes; aunque siento gran curiosidad por las fascinantes criaturas de las profundidades abisales.
+                        <br>
+                        <br> En cuanto a la música, tengo gustos variados pero los géneros que más me atraen son el rock y el
+                        metal. A veces un poco de clásica, otras, ciertos ritmos de electrónica, pero el metal nunca falta.
+                    </p>
+                </div>
+                <img src="images/gatoMusica.jpg" alt="imagen 2" id="menuImage2-4">
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section id="section4-4">
+            <div class="jumbotron" id="jumbotron4-4">
+                <hr class="my-4" id="hrJumbotron4-4">
+                <h1 class="display-4" style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron4-4">Apasionado por los Videojuegos</h1>
+                <h2 style="padding-bottom: 15px; padding-top: 15px; font-weight: 300" id="h1Jumbotron4-4">Apasionado por los Videojuegos</h2>
+                <hr class="my-4" id="hrJumbotron4-4">
+                <div class="container" id="pJumbotron4Container-4">
+                    <p id="pJumbotron4-4">
+                        Porsupuesto que nunca hubiera llegado hasta aquí de no ser por los videojuegos, los cuales me lograron insertar en la informática,
+                        que hoy en día se ha convertido en mi pasión.
+                        <br>
+                        <br> Para mí, representan más que un hobbie, son la entrada a incontables mundos, muy diferentes al nuestro;
+                        donde la visión artística de una o muchas personas, (cada una especializada en un rubro determinado
+                        como son los gráficos, sonido, música, mecánicas, físicas, etc) se mezcla con la tecnicidad que reside
+                        en la elaboración de un videojuego en si.
+                        <br>
+                        <br>Es una expresión literal de arte y ciencia, como lo es un cuadro, como lo es una historia; no solo
+                        por el juego en si, si no por todo lo que lo rodea, así como la manera en que se ejecuta.
+                    </p>
+                </div>
+                <img src="images/juegos.jpg" alt="imagen 3" id="menuImage3-4">
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <hr style="background-color: white">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 py-5">
+                        <div class="mb-5 flex-center" id="socialIcons">
+                            <!--<a href="#" class="fa fa-facebook" title="Facebook"></a>
+                            <a href="#" class="fa fa-twitter" title="Twitter"></a> -->
+                            <a href="https://github.com/AinZZama" target="_blank" class="fa fa-github" title="GitHub"></a>
+                            <a href="https://www.linkedin.com/in/martin-esteban-pintos-perez-3a3a8012a/" target="_blank" class="fa fa-linkedin" title="Linked In"></a>
+                            <!--<a href="#" class="fa fa-instagram" title="Instagram"></a>-->
+                        </div>
+                        <p style="color: rgb(131, 130, 130); text-align: center; font-size: 15px">Martin Pintos 2018 ©</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+</html>
